@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Compu-Kart Raceway",
+  "version": "1",
+  "minimum_chrome_version": "35",
+  "icons": {
+    "128": "icon.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": ["fullscreen", "alwaysOnTopWindows"]
+}
